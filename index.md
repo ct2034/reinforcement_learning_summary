@@ -1,4 +1,4 @@
-# Reinforcement Learning
+# Reinforcement Learning Summary
 
 This is my summary of the lecture on Reinforcemnt Learning by Vien Ngo, Hung Ngo and Marc Toussaint from Machine Learning & Robotics Lab, IPVS, University of Stuttgart. This is based on the summer semster 2017. https://ipvs.informatik.uni-stuttgart.de/mlr/reinforcement-learning-ss-17/
 
