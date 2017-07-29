@@ -18,11 +18,15 @@ $$ P(s'|a,s), R(s,a) $$
 * (which would be model-based)
 
 ## Monte-Carlo Learning
-* For learning how good one policy on a certain state is
+* For learning how good one policy is
+* Will only update believe after whole episode
 
 ![Monte Carlo Policy Evaluation](http://incompleteideas.net/sutton/book/ebook/pseudotmp3.png)
 
 ## Temporal-Difference (TD) Learning
+* vs MC: also update during episode 
+
+![TD learning](http://incompleteideas.net/sutton/book/ebook/pseudotmp7.png)
 
 ## SARSA
 * __State-Action-Reward-State'-Action'__
