@@ -18,7 +18,6 @@ $$ L(\theta) = E[(V^\pi(s) - V(s,\theta))^2] $$
 {% endraw %}
 This can be done analytically with the partial derivative ![](http://incompleteideas.net/sutton/book/ebook/inimgtmp1318.png) :
 {% raw %}
-$$ 
 $$ \theta_{t+1} = \theta_t + \alpha_t(V^\pi(s) - V(s,\theta)) \bigtriangledown_{\theta_t} V_t(s_t) $$
 {% endraw %}
 
