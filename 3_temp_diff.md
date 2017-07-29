@@ -13,7 +13,7 @@ $$V(s), Q(s,a)$$
 {% endraw %}
 * instead of 
 {% raw %}
-$$P(s'|a,s), R(s,a)$
+$$P(s'|a,s), R(s,a)$$
 {% endraw %}
 * (which would be model-based)
 
