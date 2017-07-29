@@ -8,9 +8,14 @@
 
 ## Intro model-free
 * It learns only values like 
-* {% raw %}$$V(s)$${% endraw %}
-* and `Q(s,a)` 
-* instead of `P(s'|a,s)` or `R(s,a)` (which would be model-based)
+{% raw %}
+$$V(s), Q(s,a)$$
+{% endraw %}
+* instead of 
+{% raw %}
+$$P(s'|a,s), R(s,a)$
+{% endraw %}
+* (which would be model-based)
 
 ## Monte-Carlo Learning
 * For learning how good one policy on a certain state is
