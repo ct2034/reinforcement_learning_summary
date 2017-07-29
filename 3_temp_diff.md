@@ -25,9 +25,21 @@ $$ P(s'|a,s), R(s,a) $$
 ## Temporal-Difference (TD) Learning
 
 ## SARSA
-![SARSA lambda](http://incompleteideas.net/sutton/book/ebook/pseudotmp12.png "SARSA lambda")
+* __State-Action-Reward-State'-Action'__
+* on-policy
+
 
 ## Q-learning
+* off-policy 
+* it is no necessary to learn with the policy you will use
 
 ## Eligibility Traces
+### Sarsa(λ)
+One-step Sarsa and Sarsa(λ) are on-policy algorithms, meaning that they approximate $q_\pi(s, a)$, the action values for the current policy, π, then improve the policy gradually based on the approximate values for the current policy. The policy improvement can be done in many different ways, as we have seen.
 
+![SARSA lambda](http://incompleteideas.net/sutton/book/ebook/pseudotmp12.png "SARSA lambda")
+
+### Q(λ)
+Q($\lambda $) does not look ahead all the way to the end of the episode in its backup. It only looks ahead as far as the next exploratory action.
+
+![Q lambda](http://incompleteideas.net/sutton/book/ebook/pseudotmp13.png)
