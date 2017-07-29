@@ -26,6 +26,8 @@ $$ P(s'|a,s), R(s,a) $$
 ## Temporal-Difference (TD) Learning
 * vs MC: also update during episode 
 
+> TD methods learn their estimates in part on the basis of other estimates. They learn a guess from a guess--they bootstrap.
+
 ![TD learning](http://incompleteideas.net/sutton/book/ebook/pseudotmp7.png)
 
 ## SARSA
@@ -39,13 +41,11 @@ $$ P(s'|a,s), R(s,a) $$
 
 ## Eligibility Traces
 ### Sarsa(λ)
-One-step Sarsa and Sarsa(λ) are on-policy algorithms, meaning that they approximate {% raw %}
-$q_\pi(s, a)$
-{% endraw %}, the action values for the current policy, π, then improve the policy gradually based on the approximate values for the current policy. The policy improvement can be done in many different ways, as we have seen.
+> One-step Sarsa and Sarsa(λ) are on-policy algorithms, meaning that they approximate {% raw %}$q_\pi(s, a)${% endraw %}, the action values for the current policy, π, then improve the policy gradually based on the approximate values for the current policy. The policy improvement can be done in many different ways, as we have seen.
 
 ![SARSA lambda](http://incompleteideas.net/sutton/book/ebook/pseudotmp12.png "SARSA lambda")
 
 ### Q(λ)
-Q($\lambda $) does not look ahead all the way to the end of the episode in its backup. It only looks ahead as far as the next exploratory action.
+> Q($\lambda $) does not look ahead all the way to the end of the episode in its backup. It only looks ahead as far as the next exploratory action.
 
 ![Q lambda](http://incompleteideas.net/sutton/book/ebook/pseudotmp13.png)
