@@ -17,9 +17,13 @@ To use RL with this we need to find a parameter vector that represents the data.
 $$ L(\theta) = E[(V^\pi(s) - V(s,\theta))^2] $$
 {% endraw %}
 This can be done analytically with the partial derivative ![](http://incompleteideas.net/sutton/book/ebook/inimgtmp1318.png) :
-{% raw %}
+
+![](http://incompleteideas.net/sutton/book/ebook/numeqtmp46.png)
+<!-- {% raw %}
 $$ \theta_{t+1} = \theta_t + \alpha_t(V^\pi(s) - V(s,\theta)) \bigtriangledown_{\theta_t} V_t(s_t) $$
-{% endraw %}
+{% endraw %} -->
+
+## Estimating Target Value
 
 ## TD(λ)
 
