@@ -6,3 +6,4 @@ This is my summary of the lecture on Reinforcemnt Learning by Vien Ngo, Hung Ngo
 # Content
 ## [1 Introduction](1_Introduction)
 ## [3 Temporal Difference](3_temp_diff.md)
+## [4 Value Function Approximation](4_approx.md)
