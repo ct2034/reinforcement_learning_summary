@@ -6,7 +6,7 @@
 {:toc}
 
 ## Intro model-free
-* It learns only values like $V(s)$ and `Q(s,a)` 
+* It learns only values like {% raw %}$V(s)${% endraw %} and `Q(s,a)` 
 * instead of `P(s'|a,s)` or `R(s,a)` (which would be model-based)
 
 ## Monte-Carlo Learning
