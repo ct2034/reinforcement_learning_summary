@@ -2,11 +2,14 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
+## Outline
 * auto-gen TOC:
 {:toc}
 
 ## Intro model-free
-* It learns only values like {% raw %}$V(s)${% endraw %} and `Q(s,a)` 
+* It learns only values like 
+* {% raw %}$$V(s)$${% endraw %}
+* and `Q(s,a)` 
 * instead of `P(s'|a,s)` or `R(s,a)` (which would be model-based)
 
 ## Monte-Carlo Learning
