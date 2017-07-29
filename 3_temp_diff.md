@@ -34,11 +34,23 @@ $$ P(s'|a,s), R(s,a) $$
 * __State-Action-Reward-State'-Action'__
 * on-policy
 
+> This update is done after every transition from a nonterminal state . If  is terminal, then  is defined as zero. This rule uses every element of the quintuple of events, , that make up a transition from one state-action pair to the next. This quintuple gives rise to the name Sarsa for the algorithm.
+> 
 {% raw %}
 $$ Q(s_t,a_t) = Q(s_t,a_t) + \alpha [r_{t+q} + \lambda Q(s_{t+1},a_{t+1}) - Q(s_t,a_t)] $$
 {% endraw %}
 
 ![Sarsa](http://incompleteideas.net/sutton/book/ebook/pseudotmp8.png)
+
+### Excourse: ε-Greedy Policy
+with probability 1-ε:
+{% raw %}
+$$ a = argmax_{a' \in A}Q{s,a'} $$
+{% endraw %}
+with probability ε:
+{% raw %}
+$$ a = rand(A) $$
+{% endraw %}
 
 ## Q-learning
 * off-policy 
