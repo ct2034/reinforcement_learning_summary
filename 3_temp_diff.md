@@ -35,7 +35,7 @@ $$ P(s'|a,s), R(s,a) $$
 * on-policy
 
 {% raw %}
-$$ Q(s_t,a_t) = Q(s_t,a_t) + /alpha [r_{t+q} + /lambda Q(s_{t+1},a_{t+1}) - Q(s_t,a_t)] $$
+$$ Q(s_t,a_t) = Q(s_t,a_t) + \alpha [r_{t+q} + \lambda Q(s_{t+1},a_{t+1}) - Q(s_t,a_t)] $$
 {% endraw %}
 
 ![Sarsa](http://incompleteideas.net/sutton/book/ebook/pseudotmp8.png)
