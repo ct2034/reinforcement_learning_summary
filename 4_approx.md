@@ -24,4 +24,5 @@ $$ \theta_{t+1} = \theta_t + \alpha_t(V^\pi(s) - V(s,\theta)) \bigtriangledown_{
 ## TD(λ)
 
 ![TD lambda gradient-descent](http://incompleteideas.net/sutton/book/ebook/pseudotmp14.png)
+
 Here V is implicitly a function of θ
