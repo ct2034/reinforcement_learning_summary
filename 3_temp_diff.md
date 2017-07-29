@@ -1,8 +1,14 @@
-[TOC]
-## Monte-Carlo Learning
-* This is model-free.
+* auto-gen TOC:
+{:toc}
+
+## Intro model-free
 * It learns only values like `V(s)` and `Q(s,a)` 
 * instead of `P(s'|a,s)` or `R(s,a)` (which would be model-based)
+
+## Monte-Carlo Learning
+* For learning how good one policy on a certain state is
+
+![Monte Carlo Policy Evaluation](http://incompleteideas.net/sutton/book/ebook/pseudotmp3.png)
 
 ## Temporal-Difference (TD) Learning
 
