@@ -19,6 +19,10 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bJMib3EPwAE" frameborder="0" allowfullscreen></iframe>
 
+![Important slide from video](https://farm5.staticflickr.com/4313/36102858632_afe96bc2ed_z_d.jpg)
+
+[udacity](https://ct2034.github.io/reinforcement_learning_summary/references.html#udacity-course-reinforcement-learning)
+
 ## Difference between Policy Search and Value-based RL
 
 
