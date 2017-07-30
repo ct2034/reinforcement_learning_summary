@@ -17,3 +17,8 @@ A very good MOOC on the topic that is unfortunately not invoking the latest rese
 [link](http://www.scholarpedia.org/article/Policy_gradient_methods)
 
 All the concepts of PG are well explained and the pseudo-code is ease to understand.
+
+### TU Darmstadt Slides
+[link](http://www.ias.tu-darmstadt.de/uploads/Research/MPI2007/MPI2007peters.pdf)
+
+Special Focus on Natural Policy Gradient
