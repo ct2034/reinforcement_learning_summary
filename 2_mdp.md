@@ -9,8 +9,18 @@
 ## The Agent-Environment Interface
 
 ## Markov Decision Process
-* Formulation
-* Optimality
+> A Markov decision process is a 5-tuple {\displaystyle (S,A,P_{\cdot }(\cdot ,\cdot ),R_{\cdot }(\cdot ,\cdot ),\gamma )} (S,A,P_\cdot(\cdot,\cdot),R_\cdot(\cdot,\cdot),\gamma), where
+> {\displaystyle S} S is a finite set of states,
+> {\displaystyle A} A is a finite set of actions (alternatively, {\displaystyle A_{s}} A_s is the finite set of actions available from state {\displaystyle s} s),
+> {\displaystyle P_{a}(s,s')=\Pr(s_{t+1}=s'\mid s_{t}=s,a_{t}=a)} P_a(s,s') = \Pr(s_{t+1}=s' \mid s_t = s, a_t=a) is the probability that action {\displaystyle a} a in state {\displaystyle s} s at time {\displaystyle t} t will lead to state {\displaystyle s'} s' at time {\displaystyle t+1} t+1,
+> {\displaystyle R_{a}(s,s')} R_a(s,s') is the immediate reward (or expected immediate reward) received after transitioning from state {\displaystyle s} s to state {\displaystyle s'} s', due to action {\displaystyle a} a
+> {\displaystyle \gamma \in [0,1]} \gamma \in [0,1] is the discount factor, which represents the difference in importance between future rewards and present rewards.
+> (Note: The theory of Markov decision processes does not state that {\displaystyle S} S or {\displaystyle A} A are finite, but the basic algorithms below assume that they are finite.)
+
+[[source: wikipedia]](https://ct2034.github.io/reinforcement_learning_summary/references.html#wikipedia-markov-decision-process)
+
+* Because of the Markov property, the optimal policy for this particular problem can indeed be written as a function of {\displaystyle s} s only, as assumed above.
+* 
 * Markov **Reward** Process (MRP) = MDP + a fixed policy
 
 ![](https://farm5.staticflickr.com/4327/35440549924_4555de2502_z_d.jpg)
@@ -23,6 +33,9 @@
 [[source: udacity]](https://ct2034.github.io/reinforcement_learning_summary/references.html#udacity-course-reinforcement-learning)
 
 ## Action-Value Function
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/63b502aafbe6ea1585231222ea3783f40f0808a9)
+
+
 ![](https://farm5.staticflickr.com/4318/35440550364_9d7ee793cc_z_d.jpg)
 ![](https://farm5.staticflickr.com/4296/36140063171_af43038cee_z_d.jpg)
 

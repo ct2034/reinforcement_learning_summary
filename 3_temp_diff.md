@@ -17,6 +17,19 @@ $$ P(s'|a,s), R(s,a) $$
 {% endraw %}
 * (which would be model-based)
 
+## Prediction vs Control
+* The Behaviour policy (used to act) can be either the same (**on-policy**) or
+different (**off-policy**) with the
+    - *estimation policy* (the one that is being evaluated; **prediction** problem)
+    - *target policy* (greedy policy being evaluated and improved; **control**).
+
+### Methods:
+* Monte-Carlo **prediction/control** methods
+* Temporal Difference learning (**prediction**)
+* *On-policy* SARSA, *off-policy* Q-Learning (**control**) algorithms
+
+
+
 ## Monte-Carlo Learning
 * For learning how good one policy is
 * Will only update believe after whole episode

@@ -32,3 +32,8 @@ Very detailed overview on all that was covered regarding HRL.
 [link](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa12/slides/inverseRL.pdf)
 
 Lecture slides on Inverse Reinforcement Learning. Contains also very good examples for applications.
+
+## Wikipedia Markov Decision Process
+[link](https://en.wikipedia.org/wiki/Markov_decision_process)
+
+Really good article in the best encyclopaedia 
