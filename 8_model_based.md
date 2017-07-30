@@ -24,7 +24,6 @@
 * Learning allows an agent to improve its policy from its interactions with the environment.
 * Planning: to improve its policy w/o further interaction.
 
-
 ## FlatMC
 ![](https://farm5.staticflickr.com/4309/35878109330_b66c0d9ea6_z_d.jpg)
 
