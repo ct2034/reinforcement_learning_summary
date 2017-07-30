@@ -22,3 +22,8 @@ All the concepts of PG are well explained and the pseudo-code is ease to underst
 [link](http://www.ias.tu-darmstadt.de/uploads/Research/MPI2007/MPI2007peters.pdf)
 
 Special Focus on Natural Policy Gradient
+
+### Barto: Recent Advances in Hierarchical Reinforcement Learning
+[link](http://incompleteideas.net/rlai.cs.ualberta.ca/papers/barto03recent.pdf)
+
+Very detailed overview on all that was covered regarding HRL.
