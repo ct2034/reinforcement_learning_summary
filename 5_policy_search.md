@@ -21,12 +21,29 @@
 
 ![Important slide from video](https://farm5.staticflickr.com/4313/36102858632_afe96bc2ed_z_d.jpg)
 
-[udacity](https://ct2034.github.io/reinforcement_learning_summary/references.html#udacity-course-reinforcement-learning)
+[[source: udacity]](https://ct2034.github.io/reinforcement_learning_summary/references.html#udacity-course-reinforcement-learning)
 
 ## Difference between Policy Search and Value-based RL
-
+* PS is guaranteed to converge
+* good for high dimensional spaces
+* can learn from demonstration
+Disadvantage of PS: Computationally Inefficient (see video)
 
 ## Plain Policy Gradient
+```
+while (not converged)
+  # Exploration:
+  Generate Trajectories D using π(θ_k)
+  # Evaluation: 
+  Check Quality of π(θ_k; D)
+  # Update:
+  Make π(θ_{k+1}) using evaluations and trajectories
+```
+or
+
+![](http://incompleteideas.net/sutton/book/ebook/pseudotmp1.png)
+[[source: sutton]](https://ct2034.github.io/reinforcement_learning_summary/references.html#sutton-and-barto-reinforcement-learning-an-introduction)
+
 
 ## Likelihood Ratio Gradient
 
