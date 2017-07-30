@@ -10,5 +10,6 @@ This is my summary of the lecture on Reinforcement Learning by Vien Ngo, Hung Ng
 ## [5 Policy Search](5_policy_search.md)
 ## [6 Hierarchical RL](6_hierarchical_RL.md)
 ## [7 Inverse RL](7_inverse.md)
+## [8 Model Based RL](8_model_based.md)
 
 ## [References](references.md)
