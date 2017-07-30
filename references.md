@@ -27,3 +27,8 @@ Special Focus on Natural Policy Gradient
 [link](http://incompleteideas.net/rlai.cs.ualberta.ca/papers/barto03recent.pdf)
 
 Very detailed overview on all that was covered regarding HRL.
+
+## Abbeel: Inverse RL slides
+[link](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa12/slides/inverseRL.pdf)
+
+Lecture slides on Inverse Reinforcement Learning. Contains also very good examples for applications.
