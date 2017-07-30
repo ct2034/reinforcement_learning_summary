@@ -7,3 +7,5 @@ This is my summary of the lecture on Reinforcemnt Learning by Vien Ngo, Hung Ngo
 ## [1 Introduction](1_Introduction)
 ## [3 Temporal Difference](3_temp_diff.md)
 ## [4 Value Function Approximation](4_approx.md)
+## [5 Policy Search](5_policy_search.md)
+## [6 Hierarchical RL](6_hierarchical_RL.md)
