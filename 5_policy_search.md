@@ -2,11 +2,11 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-# Policy Search
+## Policy Search
 * auto-gen TOC:
 {:toc}
 
-# Intro
+## Intro
 * Policy Search uses
     - exploration
     - evaluation
@@ -23,13 +23,13 @@
 
 [[source: udacity]](https://ct2034.github.io/reinforcement_learning_summary/references.html#udacity-course-reinforcement-learning)
 
-# Difference between Policy Search and Value-based RL
+## Difference between Policy Search and Value-based RL
 * PS is guaranteed to converge
 * good for high dimensional spaces
 * can learn from demonstration
 Disadvantage of PS: Computationally Inefficient (see video)
 
-# Policy Iteration
+## Policy Iteration
 ```
 while (not converged)
   # Exploration:
@@ -45,7 +45,7 @@ or
 
 [[source: sutton]](https://ct2034.github.io/reinforcement_learning_summary/references.html#sutton-and-barto-reinforcement-learning-an-introduction)
 
-# Plain Policy Gradient
+## Plain Policy Gradient
 Update the policy via updating its parametrization
 ```
 input: policy parametrization θh
@@ -61,7 +61,7 @@ gradient update: θ = θ + α g_FD(θ)
 
 Works well if J i not to noisy
 
-# Likelihood Ratio Gradient and REINFORCE
+## Likelihood Ratio Gradient and REINFORCE
 This does not need parametrization.
 Baseline b is introduced to reduce variance.
 It vanishes for infinite data.
@@ -76,22 +76,22 @@ Allows to use non-biased estimate gradients.
 
 [[source: scholarpedia]](https://ct2034.github.io/reinforcement_learning_summary/references.html#scholarpedia-on-policy-gradient-methods)
 
-# G(PO)MDP
+## G(PO)MDP
 This aims to reduce the variance again by a baseline 
 
 ![](https://farm5.staticflickr.com/4328/36229664406_5997502e38_z_d.jpg)
 
-# Gauss-Newton 
+## Gauss-Newton 
 * second-order policy gradient
 
-# Natural Policy Gradient
+## Natural Policy Gradient
 Trying to use the actual gradient of the state instead of a scaled version.
 
 ![](https://farm5.staticflickr.com/4317/36270730885_b2850c199a_z_d.jpg)
 
 [[source: TU Darmstadt]](https://ct2034.github.io/reinforcement_learning_summary/references.html#TU-Darmstadt-Slides)
 
-# Natural Actor-Critic
+## Natural Actor-Critic
 ```
 initialize θ0
 For t = 0 : ∞ (until convergence)
