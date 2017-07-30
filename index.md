@@ -4,7 +4,8 @@ This is my summary of the lecture on Reinforcement Learning by Vien Ngo, Hung Ng
 ([Wikipedia](https://en.wikipedia.org/wiki/Reinforcement_learning))
 
 # Content
-## [1 Introduction](1_Introduction)
+## [1 Introduction](1_introduction.md)
+## [2 MDP, Bellman Equations, DP](2_mdp.md)
 ## [3 Temporal Difference](3_temp_diff.md)
 ## [4 Value Function Approximation](4_approx.md)
 ## [5 Policy Search](5_policy_search.md)
