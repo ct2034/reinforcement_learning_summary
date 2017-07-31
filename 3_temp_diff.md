@@ -29,12 +29,13 @@ different (**off-policy**) with the
 * *On-policy* SARSA, *off-policy* Q-Learning (**control**) algorithms
 
 
-
 ## Monte-Carlo Learning
 * For learning how good one policy is
 * Will only update believe after whole episode
 
 ![Monte Carlo Policy Evaluation](http://incompleteideas.net/sutton/book/ebook/pseudotmp3.png)
+
+[[source: sutton]](https://ct2034.github.io/reinforcement_learning_summary/references.html#sutton-and-barto-reinforcement-learning-an-introduction)
 
 ## Temporal-Difference (TD) Learning
 * vs MC: also update during episode 
@@ -42,6 +43,8 @@ different (**off-policy**) with the
 > TD methods learn their estimates in part on the basis of other estimates. They learn a guess from a guess--they bootstrap.
 
 ![TD learning](http://incompleteideas.net/sutton/book/ebook/pseudotmp7.png)
+
+[[source: sutton]](https://ct2034.github.io/reinforcement_learning_summary/references.html#sutton-and-barto-reinforcement-learning-an-introduction)
 
 ## SARSA
 * __State-Action-Reward-State'-Action'__
@@ -54,6 +57,8 @@ $$ Q(s_t,a_t) = Q(s_t,a_t) + \alpha [r_{t+q} + \lambda Q(s_{t+1},a_{t+1}) - Q(s_
 {% endraw %}
 
 ![Sarsa](http://incompleteideas.net/sutton/book/ebook/pseudotmp8.png)
+
+[[source: sutton]](https://ct2034.github.io/reinforcement_learning_summary/references.html#sutton-and-barto-reinforcement-learning-an-introduction)
 
 ### Excourse: ε-Greedy Policy
 with probability 1-ε:
@@ -71,6 +76,8 @@ $$ a = rand(A) $$
 
 ![Q Learning](http://incompleteideas.net/sutton/book/ebook/pseudotmp9.png)
 
+[[source: sutton]](https://ct2034.github.io/reinforcement_learning_summary/references.html#sutton-and-barto-reinforcement-learning-an-introduction)
+
 ### Q-larning vs SARSA
 (On the cliff walking example)
 > After an initial transient, Q-learning learns values for the optimal policy, that which travels right along the edge of the cliff. Unfortunately, this results in its occasionally falling off the cliff because of the $\varepsilon $-greedy action selection. Sarsa, on the other hand, takes the action selection into account and learns the longer but safer path through the upper part of the grid. Although Q-learning actually learns the values of the optimal policy, its on-line performance is worse than that of Sarsa, which learns the roundabout policy. Of course, if $\varepsilon $ were gradually reduced, then both methods would asymptotically converge to the optimal policy.
@@ -81,7 +88,12 @@ $$ a = rand(A) $$
 
 ![SARSA lambda](http://incompleteideas.net/sutton/book/ebook/pseudotmp12.png "SARSA lambda")
 
+[[source: sutton]](https://ct2034.github.io/reinforcement_learning_summary/references.html#sutton-and-barto-reinforcement-learning-an-introduction)
+
+
 ### Q(λ)
 > Q($\lambda $) does not look ahead all the way to the end of the episode in its backup. It only looks ahead as far as the next exploratory action.
 
 ![Q lambda](http://incompleteideas.net/sutton/book/ebook/pseudotmp13.png)
+
+[[source: sutton]](https://ct2034.github.io/reinforcement_learning_summary/references.html#sutton-and-barto-reinforcement-learning-an-introduction)

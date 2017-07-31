@@ -7,6 +7,10 @@
 {:toc}
 
 ## The Agent-Environment Interface
+![](http://www.incompleteideas.net/sutton/book/ebook/figtmp7.png)
+
+[[source: sutton]](https://ct2034.github.io/reinforcement_learning_summary/references.html#sutton-and-barto-reinforcement-learning-an-introduction)
+
 
 ## Markov Decision Process
 ![](https://farm5.staticflickr.com/4322/36140491281_ae07f96e0a_z_d.jpg)
